@@ -56,7 +56,7 @@
       <div class="row mx-auto">
         <div class="col-md-12">
           <h1 class="mb-3">About my activities</h1>
-          <p class="">I have been working in web development since 2006 and from that time the list of my projects includes content management systems, web sites, databases, web stores and also offline applications. Now I am working on machine learning projects, but continue to create for the web.&nbsp;</p>
+          <p class="">I have been working in web development since 2001 and from that time the list of my projects includes content management systems, web sites, databases, web stores and also offline applications. Now I am working on machine learning projects, but I still continue creating for the web.&nbsp;</p>
           <a href="#myportfolio" class="btn btn-outline-primary btn-lg m-2">Portfolio</a>
           <a class="btn btn-primary btn-lg m-2" href="#contacts">Contact</a>
         </div>
@@ -218,8 +218,8 @@
     <div class="container" id="contacts">
       <div class="row">
         <div class="my-3 col-lg-4 col-md-6">
-          <h3>bchavdarov development lab</h3>
-          <p class="text-muted">March 2019</p>
+          <h3>bchavdarov data lab</h3>
+          <p class="text-muted">Software and web development for the busineses and for personal use</p>
           <p class="my-3">Burgas, Bulgaria</p>
         </div>
         <div class="my-3 col-lg-4 col-md-6">
@@ -240,7 +240,7 @@
         </div>
         <div class="col-lg-1"> </div>
         <div class="my-3 col-lg-3">
-          <h3>Follow</h3>
+          <h3>Follow me</h3>
           <a href="https://www.facebook.com/profile.php?id=100063548951613" target="blank"><i class="fa fa-facebook-square text-muted fa-3x m-2"></i></a>
           <a href="https://www.instagram.com" target="blank"><i class="fa fa-3x fa-instagram text-muted m-2"></i></a>
           <a href="https://twitter.com" target="blank"><i class="fa fa-3x fa-twitter m-2 text-muted"></i></a>
@@ -251,7 +251,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <p class="text-muted">© Copyright 2019 bchavdarov development lab - All rights reserved. </p>
+          <p class="text-muted">© Copyright <span id="current-year"></span> bchavdarov data lab - All rights reserved. </p>
         </div>
       </div>
     </div>
@@ -278,7 +278,10 @@
         document.getElementById("gotop").style.display = "none";
       }
     }
+
+    document.getElementById("current-year").textContent = new Date().getFullYear();
   </script>
+  
 </body>
 
 </html>
